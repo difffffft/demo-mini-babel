@@ -925,3 +925,7 @@ const compiler = (sources_code) => {
 let sources_code = "(add 2 (subtract 4 2))"
 let output = compiler(sources_code)
 console.log(output);
+
+module.exports = {
+    tokenizer
+}
